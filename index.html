@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+<head>
+	<title>https:formscovid</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+    <link  rel="Php" type="text/php"         href="Php/config.php">
+	<link  rel="php" type="text/php"        href="Php/formulario.php">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #666666;">
+<div class="forms">
+	<div class="limiter">
+		<div class="container-login100">
+			    <div class="wrap-login100">
+			       	<form class="login100-form validate-form" 
+					action="Php/formulario.php" method="POST">
+				  
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" name="nome">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Nome completo:</span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="senha">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Senha:</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate= "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email">
+						<span class="focus-input100"></span>
+						<span class="label-input100">email:</span>
+					</div>
+
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="tel" name="telefone">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Telefone:</span>
+					</div>
+		         <button><input class=".login100-form-btn " type="submit" name="submit" id="submit"></button>
+					
+			</form>
+			      <div class="login100-more" style="background-image: url('img/covid.webp');">
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
